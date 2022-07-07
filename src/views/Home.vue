@@ -13,7 +13,7 @@ const width = screen.width;
         <div class="flex w-full flex-col md:flex-row">
             <div class="w-full md:w-1/2">
                 <Typing
-                    text="Anya Forger"
+                    text="好水好水"
                     @done="step++"
                     class="mb-2 block text-2xl sm:text-3xl lg:text-4xl"
                 />
@@ -30,7 +30,7 @@ const width = screen.width;
                 <a
                     v-if="step > 2"
                     class="mt-4 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
-                    href="https://www.instagram.com/spy_family_official/"
+                    href="https://www.instagram.com/jaychou/"
                     target="_blank"
                 >
                     <MdiInstagram class="mr-1 inline-block" />
@@ -55,8 +55,11 @@ const width = screen.width;
             </div>
         </div>
         <div class="opacity-0">
-            I'm so cute!<br />
-            Waku Waku!
+            我真的好水<br />
+            水水
         </div>
     </div>
+    <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2022/04/22/0/16745168.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050">
+
 </template>
+
